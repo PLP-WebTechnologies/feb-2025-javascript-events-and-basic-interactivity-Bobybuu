@@ -1,0 +1,11 @@
+.hidden {
+    display: none;
+  }
+  #gallery img {
+    display: block;
+    margin: 10px 0;
+  }
+  .tab-content {
+    margin-top: 10px;
+  }
+  

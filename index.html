@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JavaScript Playground 🎉</h1>
+
+  <button id="magicButton">Click Me!</button>
+  <p id="textArea">This text will change when you click the button!</p>
+
+  <div id="gallery">
+    <img src="istockphoto-2152852160-1024x1024.jpg" alt="Placeholder" id="galleryImg" />
+    <button id="nextImg">Next Image</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab" data-content="content1">Tab 1</button>
+    <button class="tab" data-content="content2">Tab 2</button>
+    <div id="content1" class="tab-content">This is content for Tab 1</div>
+    <div id="content2" class="tab-content hidden">This is content for Tab 2</div>
+  </div>
+
+  <form id="signupForm">
+    <h2>Signup Form</h2>
+    <input type="text" id="name" placeholder="Your name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
